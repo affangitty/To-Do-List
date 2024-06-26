@@ -80,23 +80,23 @@ li {
 }
 
 .ins{
-    text-align: center;
     position: absolute;
     bottom: 8rem;
+    left: 1rem;
     color: rgb(28, 28, 163);
     font-weight: bolder;
 }
 .ins2{
-    text-align: center;
     position: absolute;
+    left: 1rem;
     bottom: 6rem;
     color: rgb(189, 15, 15);
     font-weight: bolder;
  }
 
 .ins3{
-    text-align: center;
     position: absolute;
+    left: 1rem;
     bottom: 1rem;
     color: rgb(189, 15, 15);
     font-size: 1.2rem;

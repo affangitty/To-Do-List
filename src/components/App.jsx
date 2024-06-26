@@ -25,6 +25,14 @@ function App() {
       });
       setInputText("");
     }
+    else if(event.key==='Delete'){
+      setItems((prevItems) => {
+        return prevItems.filter((item, index) => {
+          return index !== 0;
+        });
+      });
+      setInputText("");  
+    }
   }
 
   function deleteItem(id) {
